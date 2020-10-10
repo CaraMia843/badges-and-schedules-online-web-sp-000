@@ -23,7 +23,7 @@ def printer(name_array)
     puts badge
   end
   
-  assign_rooms(speakers).each do |badge|
+  assign_rooms(name_array).each do |badge|
     puts badge
   end
 end
